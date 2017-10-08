@@ -1,0 +1,22 @@
+{
+    "name": "onsa/reflective-test-case",
+    "description": "ReflectiveTestCase extends PHPUnit's TestCase with the invokeMethod method for the sake of testing private classes.",
+    "keywords": ["PHPUnit", "Reflection", "TestCase"],
+    "authors": [
+				{
+						"name": "Jordon Brill"
+				},
+        {
+            "name": "onsa"
+        }
+    ],
+    "require": {
+				"phpunit/phpunit": "^6.3.0"
+		},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "onsa\\ReflectiveTestCase\\": "src"
+        }
+    }
+}
